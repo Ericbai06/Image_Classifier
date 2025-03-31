@@ -25,7 +25,7 @@ pip install opencv-python numpy pillow matplotlib torch torchvision
 
 3. **Training and Evaluation:**
 - The code iterates through num_ epochs, performs forward propagation, loss calculation, gradient feedback on the training data, and updates the model parameters using an optimizer.
-- After each epoch, calculate and print the loss and accuracy of the training and validation sets.
+- After each epoch, calculate and print the loss and accuracy of the training sets.
 - Save the best model weights using torch.
 - Load the optimal model parameters, evaluate the model on the validation set, and output the accuracy. Use models to predict and visualize data on the test set.
 
